@@ -1,0 +1,240 @@
+.body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.qr-code img {
+    width: 228px;
+    height: 228px;
+}
+
+.qr-form {
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.qr-form h2 {
+    margin-bottom: 10px;
+}
+
+.qr-form a, h3, .qr-form p {
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.countdowntime {
+    font-size: 18px;
+    color: darkred;
+}
+
+#hethan {
+    z-index: 100;
+    position: relative;
+    text-align: center;
+    top: 7rem;
+}
+
+#hethan p {
+    font-size: 20px;
+    color:blue;
+}
+
+#hethan button {
+    padding: 5px;
+    font-size: 15px;
+    color: blue;
+    background-color: white;
+    border-radius: 6px;
+}
+
+#hethan button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+.thongbao {
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    top: 30rem;
+}
+
+.thongbao h3{
+    font-size: 20px;
+}
+
+.thongbao a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.info {
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+#user {
+    font-size: 20px;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    margin: 0 140px 0 140px;
+    background-color: #3498db;
+    border: black solid 3px;
+    border-radius: 50%;
+    
+}
+
+#huyDN {
+    z-index: 130;
+    position: relative;
+    text-align: center;
+    top: 5rem;
+}
+
+#huyDN p {
+    font-size: 20px;
+    color: blue;
+}
+
+#huyDN button {
+    padding: 5px;
+    font-size: 15px;
+    color: blue;
+    background-color: white;
+    border-radius: 6px;
+}
+
+#huyDN button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+/* CSS HomePage */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #60e5e9, #75ed9b);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    padding: 5% 15%;
+    box-sizing: border-box;
+}
+
+.left-content {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid #0e0076;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    margin-top: 10%;
+}
+
+.name {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.logout-button {
+    padding: 10px 50px;
+    font-size: 1rem;
+    color: red;
+    border: 2px solid red;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: red;
+    color: white;
+}
+
+.text p {
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.right-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.right-content .right-top {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 4px solid #0e0076;
+    color: blue;
+}
+
+.right-content .right-bottom {
+    flex: 2;
+    background-color: #fff;
+    display: flex;
+    font-size: 1.5rem;
+    color: blue;
+    border: 4px solid #0e0076;
+}
+
+.box {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+}
+
+.box.right-top p {
+    margin: 10px;
+}
