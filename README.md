@@ -1,4 +1,4 @@
-**`QR Code Login`**
+`**QR Code Login**`
 
 Ứng dụng đăng nhập website bằng cách quét QR Code từ điện thoại di động.
 
@@ -17,11 +17,11 @@ Source code Project (Web + Backend): https://github.com/Zakihung/QRCode_Login
 # 1. Cài đặt thư viện
 
 Backend:
-_cd backend_\n
+_cd backend_
 _npm install_
 
 Frontend
-_cd ../frontend_\n
+_cd ../frontend_
 _npm install_
 
 # 2. Lấy địa chỉ IP
@@ -35,28 +35,28 @@ Thay [IPv4] bằng địa chỉ vừa lấy được trong các file sau:
 
 **Source code GitHub:**
 
-backend/server.js: _const host = "[IPv4]";_
+backend/server.js: **_const host = "[IPv4]";_**
 
-frontend/src/WebSocketClient.js: _const wsClient = new WebSocketClient("ws://[IPv4]:3000");_
+frontend/src/WebSocketClient.js: **_const wsClient = new WebSocketClient("ws://[IPv4]:3000");_**
 
-frontend/vite.config.js: _host: "[IPv4]", target: "http://[IPv4]:3000/"_
+frontend/vite.config.js: **_host: "[IPv4]", target: "http://[IPv4]:3000/"_**
 
 **Source code ứng dụng di động (Expo):**
 
-Components/AxiosClient.js: _const host = "[IPv4]";_
+Components/AxiosClient.js: **_const host = "[IPv4]";_**
 
-Components/WebSocketClient.js: _const host = "[IPv4]";_
+Components/WebSocketClient.js: **_const host = "[IPv4]";_**
 
 # 🚀 Chạy chương trình
 
 **Backend (server)**
 
-_cd backend_\n
+_cd backend_
 _npm run start_
 
 **Frontend (web)**
 
-_cd frontend_\n
+_cd frontend_
 _npm run dev_
 
 → Truy cập: http://[IPv4]:3001/
