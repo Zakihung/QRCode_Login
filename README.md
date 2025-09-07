@@ -1,8 +1,8 @@
-QR Code Login
+**`QR Code Login`**
 
 Ứng dụng đăng nhập website bằng cách quét QR Code từ điện thoại di động.
 
-🔧 Chuẩn bị
+# 🔧 Chuẩn bị
 
 Ứng dụng Expo Go được tải từ Google Play trên thiết bị di động.
 
@@ -10,19 +10,19 @@ Source code ứng dụng di động (React Native - Snack): https://snack.expo.d
 
 Source code Project (Web + Backend): https://github.com/Zakihung/QRCode_Login
 
-⚙️ Cài đặt & Thiết lập
+# ⚙️ Cài đặt & Thiết lập
 
 👉 Yêu cầu: Máy tính (chạy backend + frontend) và điện thoại (chạy Expo Go) phải kết nối cùng một mạng LAN / Wi-Fi.
 
 # 1. Cài đặt thư viện
 
-Backend
-_cd backend
-npm install_
+Backend:
+_cd backend_\n
+_npm install_
 
 Frontend
-_cd ../frontend
-npm install_
+_cd ../frontend_\n
+_npm install_
 
 # 2. Lấy địa chỉ IP
 
@@ -51,13 +51,13 @@ Components/WebSocketClient.js: _const host = "[IPv4]";_
 
 **Backend (server)**
 
-_cd backend
-npm run start_
+_cd backend_\n
+_npm run start_
 
 **Frontend (web)**
 
-_cd frontend
-npm run dev_
+_cd frontend_\n
+_npm run dev_
 
 → Truy cập: http://[IPv4]:3001/
 
